@@ -1,9 +1,24 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
 #board {
     /* background-color: skyblue; */
     background-image: url("./flappybirdbg.png");
+}
+
+#just-line-break {
+    white-space: pre-line;
+}
+
+.note {
+    /* Padding */
+    padding: 10px;
+    /* Font */
+    font-family: Arial, sans-serif;
+    /* Text color */
+    color: red;
+    /* Display as inline-block */
+    display: inline-block;
 }
